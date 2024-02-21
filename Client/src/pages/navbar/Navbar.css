@@ -1,0 +1,160 @@
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-radius: 10px;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0px 2px 20px 2px rgb(0, 0, 0, 0.5);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 14%;
+}
+.logo img {
+    height: 85%;
+    margin-left: 5px;
+}
+.logo img:hover {
+    cursor: pointer;
+}
+.logo p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 44px;
+    color: black;
+}
+.logo p:hover {
+    color: #1d84b5;
+    cursor: pointer;
+}
+.logo p:active {
+    color: black;
+}
+
+.nav-buttons {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-buttons button {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    background: none;
+    color: black;
+}
+.nav-buttons button:hover {
+    /* box-shadow: 0 0 10px 4px rgb(155, 155, 155); */
+    transition-duration: 50ms;
+    transition-timing-function: ease-in-out;
+    color: #777777;
+    cursor: pointer;
+}
+.nav-buttons button:active {
+    color: black;
+}
+
+.nav-user {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-user p {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 10px 0 10px;
+    color: black;
+    padding: 7px 0 7px 10px;
+    border-radius: 2px;
+    margin-left: 0;
+}
+.nav-user p:hover {
+    transition-duration: 50ms;
+    transition-timing-function: ease-in-out;
+    color: #777777;
+    cursor: pointer;
+}
+.nav-user p:active {
+    color: black;
+}
+.login-dropdown {
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: fit-content;
+    height: 50px;
+}
+.login-dropdown img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    opacity: 0.75;
+}
+.login-dropdown img:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.nav-user-pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px 0 5px;
+    outline: 2px solid white;
+}
+.nav-user-pfp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nav-user-pfp img:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    transition: all 0.5s;
+}
+
+.dropdown-menu {
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    width: 120px;
+    display: none;
+    flex-direction: column;
+    top: 60px;
+    left: 1395px;
+}
+.dropdown-menu p {
+    margin: 0;
+    margin-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.dropdown-menu p:hover {
+    background-color: rgb(190, 190, 190, 0.5);
+    cursor: pointer;
+}

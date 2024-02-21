@@ -1,0 +1,18 @@
+{
+    "type": "Microsoft.CognitiveServices/accounts",
+    "apiVersion": "2021-04-30-preview",
+    "name": "vendetta",
+    "location": "centralindia",
+    "sku": {
+      "name": "F0",
+      "tier": "Free"
+    },
+    "properties": {
+      "corsSettings": {
+        "allowedOrigins": [
+          "http://localhost:3000"
+        ]
+      }
+    }
+  }
+  

@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.home {
+    position: relative;
+}
+
+.navbar-bottom-margin {
+    height: 70px;
+}
+
+.section1 {
+    margin: 50px 0 100px 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.9);
+}
+.section1 img {
+    margin-left: 25px;
+    height: 550px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 42px;
+    margin-right: 25px;
+    color: #4b6a65;
+}
+
+.section-head {
+    font-size: 48px;
+    text-align: center;
+    color: #433a31;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.first-section-header {
+    font-size: 88px;
+}
+
+.section-content {
+    text-align: center;
+    font-weight: 500;
+    font-size: 29px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-buttons button {
+    margin: 0 30px 0 30px;
+    width: 200px;
+    padding: 15px 20px 15px 20px;
+    font-size: 32px;
+    transition: all 0.1s;
+}
+
+.button1 {
+    background-color: #433a31;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.button1:hover {
+    background-color: #64574a;
+}
+.button1:active {
+    background-color: #433a31;
+}
+
+.button2 {
+    background-color: white;
+    color: #4b6a65;
+    border: 1px solid #433a31;
+    border-radius: 10px;
+}
+.button2:hover {
+    background-color: #4b6a65;
+    color: white;
+}
+.button2:active {
+    background-color: #688f89;
+}
+
+.section2 {
+    margin-bottom: 0px;
+}
+
+.section2 img {
+    margin: 0;
+    margin-left: -50px;
+}
+.text2 {
+    margin-left: 0;
+    margin-right: 50px;
+}
+
+.button3 {
+    background-color: #433a31;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+.button3:hover {
+    background-color: #64574a;
+}
+.button3:active {
+    background-color: #433a31;
+}
+
+.features-gif {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+.features-gif img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 12px;
+    outline: 8px solid #026dfc;
+}
+.section-button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-button3 button {
+    margin: 0 30px 0 30px;
+    width: 230px;
+    padding: 15px 20px 15px 20px;
+    font-size: 32px;
+    transition: all 0.1s;
+}
+.chatbot {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50%;
+}
+
+.chatbot:hover {
+    cursor: pointer;
+}

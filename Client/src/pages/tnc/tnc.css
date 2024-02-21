@@ -1,0 +1,28 @@
+.tnc {
+    margin-bottom: 60px;
+}
+
+.tnc-head {
+    text-align: left;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 0 10px 20px;
+}
+.tnc-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0 0 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.tnc-section-head {
+    margin-bottom: 0px;
+}
+.tnc-section-content {
+    font-size: 18px;
+    font-weight: normal;
+}

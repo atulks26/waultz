@@ -1,0 +1,25 @@
+.anonymous {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anonymous-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.anonymous button {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    max-width: 6rem;
+}
+
+.anonymous textarea {
+    min-width: 20vw;
+    min-height: 40vh;
+}

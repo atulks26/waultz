@@ -1,0 +1,22 @@
+.summary {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.summary-div {
+    width: 60vw;
+    height: 80vh;
+    text-align: center;
+}
+
+.summary-div:nth-child() {
+    margin: 3rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+}

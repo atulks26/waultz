@@ -1,0 +1,89 @@
+.plans-header {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    height: 130px;
+    font-size: 75px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #433a31;
+    font-weight: bold;
+}
+
+.plan-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+.plan-card {
+    width: 20%;
+    height: 60%;
+    margin: 0 40px 0 40px;
+    border-radius: 4px;
+
+    color: white;
+    opacity: 0.8;
+
+    background-color: #b0d8ff;
+    border: 4px solid;
+    border-color: #026dfc;
+    /* box-shadow: 0 0 20px 4px #026dfc; */
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+.plan-card:hover {
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 0 30px 8px rgba(15, 14, 14, 0.7);
+    transform: scale(1.05);
+}
+
+/* .plans {
+    display: flex;
+} */
+
+.pricing-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.plan-choose {
+    display: flex;
+    width: 25%;
+}
+
+.plan-card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    /* justify-content: center; */
+}
+
+.plan-card-head {
+    font-family: "Lato", sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    /* text-shadow: 0 0 4px #010101, 0 0 5px #000000 */
+}
+.plan-card-info {
+    font-family: "Poppins", sans-serif;
+    color: #026dfc;
+    font-size: 20px;
+    margin: -30px 1px 0px -13px;
+    /* text-shadow: 0 0 4px #0091ff, 0 0 5px #a4a4a5 */
+}
+.plan-card-info li {
+    margin-bottom: 20px;
+}
+.plan-info-subclass {
+    color: red;
+}

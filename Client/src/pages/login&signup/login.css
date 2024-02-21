@@ -1,0 +1,77 @@
+.login-page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    width: 40%;
+    /* border-left: 5px solid rgb(0, 0, 0, 0.3); */
+    box-shadow: -10px 0 20px 2px rgb(0, 0, 0, 0.3);
+    /* background-color: red; */
+}
+
+.login-image {
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+}
+.login-image img {
+    width: 77%;
+}
+
+.login-form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-form input {
+    padding: 20px 15px 20px 15px;
+    margin: 10px 10px 10px 10px;
+    width: 350px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+.login-heading {
+    margin: 0;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #6c63fe;
+    margin: 0 0 10px 0;
+}
+.login-form input::placeholder {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+.login-form button {
+    margin: 20px 0 0 0;
+    padding: 15px 20px 15px 20px;
+    width: 150px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #3f3d54;
+    border: none;
+    outline: 2px solid #3f3d54;
+    border-radius: 4px;
+    transition: all 0.1s;
+}
+.login-form button:hover {
+    background-color: #3f3d54;
+    color: white;
+}
+.login-signup-option {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #3f3d54;
+    margin: 20px 0 0px 0;
+}

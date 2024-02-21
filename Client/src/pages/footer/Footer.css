@@ -1,0 +1,121 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 145px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 30px 2px rgb(0, 0, 0, 0.5);
+}
+
+.name-logo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+}
+
+.footer-name-logo {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 15px 0 0 0;
+}
+.footer-name-logo img {
+    height: 100%;
+}
+.footer-name-logo p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 60px;
+    color: black;
+    margin: 0 0 5px 0;
+}
+
+.copyright {
+    display: flex;
+    margin: 0 0 0 20px;
+    justify-content: center;
+    color: black;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    margin: 0 0 0 500px;
+    width: 60%;
+    font-family: "PT Serif", serif;
+    color: black;
+}
+.footer-details p {
+    margin: 0 10px 0 10px;
+}
+.footer-details p:hover {
+    cursor: pointer;
+}
+
+.footer-support {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    margin-top: 25px;
+    /* justify-content: center; */
+    width: 30%;
+    font-family: "PT Serif", serif;
+    /* font-size: 18px; */
+    color: black;
+}
+.footer-faq {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    line-height: 0;
+    margin-top: 25px;
+    /* justify-content: center; */
+    width: 30%;
+    font-family: "PT Serif", serif;
+    /* font-size: 18px; */
+    color: black;
+}
+
+/*
+.vertical1 {
+    border-left: 4px solid black;
+    opacity: 0.7;
+    height: 100px;
+    position: absolute;
+    left: 32.5%;
+    margin-left: px;
+    top: 22;
+    border-radius: 4px;
+}
+
+.vertical2 {
+    border-left: 4px solid black;
+    opacity: 0.7;
+    height: 100px;
+    position: absolute;
+    left: 57%;
+    margin-left: 4px;
+    top: 22;
+    border-radius: 4px;
+}
+.vertical3 {
+    border-left: 4px solid black;
+    opacity: 0.7;
+    height: 100px;
+    position: absolute;
+    left: 67.5%;
+    margin-left: 4px;
+    top: 22;
+    border-radius: 4px;
+}
+*/
+.footer-div-heading {
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+}
