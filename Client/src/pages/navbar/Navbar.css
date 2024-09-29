@@ -145,7 +145,8 @@ a:active {
     display: none;
     flex-direction: column;
     top: 60px;
-    left: 1395px;
+    margin: 0 10px 0 10px;
+    right: 0;
 }
 .dropdown-menu p {
     margin: 0;
